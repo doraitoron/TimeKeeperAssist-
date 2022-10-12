@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B28C1E828F6833E0055255E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C1E728F6833E0055255E /* AppDelegate.swift */; };
+		4B28C1EA28F6833E0055255E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C1E928F6833E0055255E /* SceneDelegate.swift */; };
+		4B28C1EC28F6833E0055255E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C1EB28F6833E0055255E /* ViewController.swift */; };
+		4B28C1EF28F6833E0055255E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B28C1ED28F6833E0055255E /* Main.storyboard */; };
+		4B28C1F128F683400055255E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B28C1F028F683400055255E /* Assets.xcassets */; };
+		4B28C1F428F683400055255E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B28C1F228F683400055255E /* LaunchScreen.storyboard */; };
+		4B28C1FF28F683400055255E /* TimeKeeperAssist__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C1FE28F683400055255E /* TimeKeeperAssist__Tests.swift */; };
+		4B28C20928F683400055255E /* TimeKeeperAssist__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C20828F683400055255E /* TimeKeeperAssist__UITests.swift */; };
+		4B28C20B28F683400055255E /* TimeKeeperAssist__UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C20A28F683400055255E /* TimeKeeperAssist__UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B28C1FB28F683400055255E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B28C1DC28F6833E0055255E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B28C1E328F6833E0055255E;
+			remoteInfo = "TimeKeeperAssist Ⅱ";
+		};
+		4B28C20528F683400055255E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B28C1DC28F6833E0055255E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B28C1E328F6833E0055255E;
+			remoteInfo = "TimeKeeperAssist Ⅱ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B28C1E428F6833E0055255E /* TimeKeeperAssist Ⅱ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeKeeperAssist Ⅱ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B28C1E728F6833E0055255E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B28C1E928F6833E0055255E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B28C1EB28F6833E0055255E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B28C1EE28F6833E0055255E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B28C1F028F683400055255E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B28C1F328F683400055255E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B28C1F528F683400055255E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B28C1FA28F683400055255E /* TimeKeeperAssist ⅡTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeKeeperAssist ⅡTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B28C1FE28F683400055255E /* TimeKeeperAssist__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeKeeperAssist__Tests.swift; sourceTree = "<group>"; };
+		4B28C20428F683400055255E /* TimeKeeperAssist ⅡUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeKeeperAssist ⅡUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B28C20828F683400055255E /* TimeKeeperAssist__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeKeeperAssist__UITests.swift; sourceTree = "<group>"; };
+		4B28C20A28F683400055255E /* TimeKeeperAssist__UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeKeeperAssist__UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B28C1E128F6833E0055255E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B28C1F728F683400055255E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B28C20128F683400055255E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B28C1DB28F6833E0055255E = {
+			isa = PBXGroup;
+			children = (
+				4B28C1E628F6833E0055255E /* TimeKeeperAssist Ⅱ */,
+				4B28C1FD28F683400055255E /* TimeKeeperAssist ⅡTests */,
+				4B28C20728F683400055255E /* TimeKeeperAssist ⅡUITests */,
+				4B28C1E528F6833E0055255E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B28C1E528F6833E0055255E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B28C1E428F6833E0055255E /* TimeKeeperAssist Ⅱ.app */,
+				4B28C1FA28F683400055255E /* TimeKeeperAssist ⅡTests.xctest */,
+				4B28C20428F683400055255E /* TimeKeeperAssist ⅡUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B28C1E628F6833E0055255E /* TimeKeeperAssist Ⅱ */ = {
+			isa = PBXGroup;
+			children = (
+				4B28C1E728F6833E0055255E /* AppDelegate.swift */,
+				4B28C1E928F6833E0055255E /* SceneDelegate.swift */,
+				4B28C1EB28F6833E0055255E /* ViewController.swift */,
+				4B28C1ED28F6833E0055255E /* Main.storyboard */,
+				4B28C1F028F683400055255E /* Assets.xcassets */,
+				4B28C1F228F683400055255E /* LaunchScreen.storyboard */,
+				4B28C1F528F683400055255E /* Info.plist */,
+			);
+			path = "TimeKeeperAssist Ⅱ";
+			sourceTree = "<group>";
+		};
+		4B28C1FD28F683400055255E /* TimeKeeperAssist ⅡTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B28C1FE28F683400055255E /* TimeKeeperAssist__Tests.swift */,
+			);
+			path = "TimeKeeperAssist ⅡTests";
+			sourceTree = "<group>";
+		};
+		4B28C20728F683400055255E /* TimeKeeperAssist ⅡUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B28C20828F683400055255E /* TimeKeeperAssist__UITests.swift */,
+				4B28C20A28F683400055255E /* TimeKeeperAssist__UITestsLaunchTests.swift */,
+			);
+			path = "TimeKeeperAssist ⅡUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B28C1E328F6833E0055255E /* TimeKeeperAssist Ⅱ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B28C20E28F683400055255E /* Build configuration list for PBXNativeTarget "TimeKeeperAssist Ⅱ" */;
+			buildPhases = (
+				4B28C1E028F6833E0055255E /* Sources */,
+				4B28C1E128F6833E0055255E /* Frameworks */,
+				4B28C1E228F6833E0055255E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimeKeeperAssist Ⅱ";
+			productName = "TimeKeeperAssist Ⅱ";
+			productReference = 4B28C1E428F6833E0055255E /* TimeKeeperAssist Ⅱ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B28C1F928F683400055255E /* TimeKeeperAssist ⅡTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B28C21128F683400055255E /* Build configuration list for PBXNativeTarget "TimeKeeperAssist ⅡTests" */;
+			buildPhases = (
+				4B28C1F628F683400055255E /* Sources */,
+				4B28C1F728F683400055255E /* Frameworks */,
+				4B28C1F828F683400055255E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B28C1FC28F683400055255E /* PBXTargetDependency */,
+			);
+			name = "TimeKeeperAssist ⅡTests";
+			productName = "TimeKeeperAssist ⅡTests";
+			productReference = 4B28C1FA28F683400055255E /* TimeKeeperAssist ⅡTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B28C20328F683400055255E /* TimeKeeperAssist ⅡUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B28C21428F683400055255E /* Build configuration list for PBXNativeTarget "TimeKeeperAssist ⅡUITests" */;
+			buildPhases = (
+				4B28C20028F683400055255E /* Sources */,
+				4B28C20128F683400055255E /* Frameworks */,
+				4B28C20228F683400055255E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B28C20628F683400055255E /* PBXTargetDependency */,
+			);
+			name = "TimeKeeperAssist ⅡUITests";
+			productName = "TimeKeeperAssist ⅡUITests";
+			productReference = 4B28C20428F683400055255E /* TimeKeeperAssist ⅡUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B28C1DC28F6833E0055255E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					4B28C1E328F6833E0055255E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					4B28C1F928F683400055255E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4B28C1E328F6833E0055255E;
+					};
+					4B28C20328F683400055255E = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 4B28C1E328F6833E0055255E;
+					};
+				};
+			};
+			buildConfigurationList = 4B28C1DF28F6833E0055255E /* Build configuration list for PBXProject "TimeKeeperAssist Ⅱ" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B28C1DB28F6833E0055255E;
+			productRefGroup = 4B28C1E528F6833E0055255E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B28C1E328F6833E0055255E /* TimeKeeperAssist Ⅱ */,
+				4B28C1F928F683400055255E /* TimeKeeperAssist ⅡTests */,
+				4B28C20328F683400055255E /* TimeKeeperAssist ⅡUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B28C1E228F6833E0055255E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B28C1F428F683400055255E /* LaunchScreen.storyboard in Resources */,
+				4B28C1F128F683400055255E /* Assets.xcassets in Resources */,
+				4B28C1EF28F6833E0055255E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B28C1F828F683400055255E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B28C20228F683400055255E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B28C1E028F6833E0055255E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B28C1EC28F6833E0055255E /* ViewController.swift in Sources */,
+				4B28C1E828F6833E0055255E /* AppDelegate.swift in Sources */,
+				4B28C1EA28F6833E0055255E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B28C1F628F683400055255E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B28C1FF28F683400055255E /* TimeKeeperAssist__Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B28C20028F683400055255E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B28C20B28F683400055255E /* TimeKeeperAssist__UITestsLaunchTests.swift in Sources */,
+				4B28C20928F683400055255E /* TimeKeeperAssist__UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B28C1FC28F683400055255E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B28C1E328F6833E0055255E /* TimeKeeperAssist Ⅱ */;
+			targetProxy = 4B28C1FB28F683400055255E /* PBXContainerItemProxy */;
+		};
+		4B28C20628F683400055255E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B28C1E328F6833E0055255E /* TimeKeeperAssist Ⅱ */;
+			targetProxy = 4B28C20528F683400055255E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B28C1ED28F6833E0055255E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B28C1EE28F6833E0055255E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B28C1F228F683400055255E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B28C1F328F683400055255E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B28C20C28F683400055255E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B28C20D28F683400055255E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B28C20F28F683400055255E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TimeKeeperAssist Ⅱ/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.TimeKeeperAssist--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B28C21028F683400055255E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TimeKeeperAssist Ⅱ/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.TimeKeeperAssist--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B28C21228F683400055255E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.TimeKeeperAssist--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeKeeperAssist Ⅱ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeKeeperAssist Ⅱ";
+			};
+			name = Debug;
+		};
+		4B28C21328F683400055255E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.TimeKeeperAssist--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeKeeperAssist Ⅱ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeKeeperAssist Ⅱ";
+			};
+			name = Release;
+		};
+		4B28C21528F683400055255E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.TimeKeeperAssist--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TimeKeeperAssist Ⅱ";
+			};
+			name = Debug;
+		};
+		4B28C21628F683400055255E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.TimeKeeperAssist--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TimeKeeperAssist Ⅱ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B28C1DF28F6833E0055255E /* Build configuration list for PBXProject "TimeKeeperAssist Ⅱ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B28C20C28F683400055255E /* Debug */,
+				4B28C20D28F683400055255E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B28C20E28F683400055255E /* Build configuration list for PBXNativeTarget "TimeKeeperAssist Ⅱ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B28C20F28F683400055255E /* Debug */,
+				4B28C21028F683400055255E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B28C21128F683400055255E /* Build configuration list for PBXNativeTarget "TimeKeeperAssist ⅡTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B28C21228F683400055255E /* Debug */,
+				4B28C21328F683400055255E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B28C21428F683400055255E /* Build configuration list for PBXNativeTarget "TimeKeeperAssist ⅡUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B28C21528F683400055255E /* Debug */,
+				4B28C21628F683400055255E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B28C1DC28F6833E0055255E /* Project object */;
+}
