@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B1E90132935CD44008FD8BF /* Execution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1E90122935CD44008FD8BF /* Execution.swift */; };
 		4B28C1E828F6833E0055255E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C1E728F6833E0055255E /* AppDelegate.swift */; };
 		4B28C1EA28F6833E0055255E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C1E928F6833E0055255E /* SceneDelegate.swift */; };
 		4B28C1EC28F6833E0055255E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C1EB28F6833E0055255E /* ViewController.swift */; };
@@ -16,6 +17,11 @@
 		4B28C1FF28F683400055255E /* TimeKeeperAssist__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C1FE28F683400055255E /* TimeKeeperAssist__Tests.swift */; };
 		4B28C20928F683400055255E /* TimeKeeperAssist__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C20828F683400055255E /* TimeKeeperAssist__UITests.swift */; };
 		4B28C20B28F683400055255E /* TimeKeeperAssist__UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B28C20A28F683400055255E /* TimeKeeperAssist__UITestsLaunchTests.swift */; };
+		4B2ACB7829123E2A0008DE44 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2ACB7729123E2A0008DE44 /* TestViewController.swift */; };
+		4B2ACB7B291241250008DE44 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2ACB79291241250008DE44 /* MainTableViewCell.swift */; };
+		4B2ACB7C291241250008DE44 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2ACB7A291241250008DE44 /* MainTableViewCell.xib */; };
+		4B9D5E86290FA5520084E400 /* SScellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D5E85290FA5520084E400 /* SScellTableViewCell.swift */; };
+		4BEBCBDF29010EAE00DBBDE2 /* ScheduleSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEBCBDE29010EAE00DBBDE2 /* ScheduleSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B1E90122935CD44008FD8BF /* Execution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Execution.swift; sourceTree = "<group>"; };
 		4B28C1E428F6833E0055255E /* TimeKeeperAssist Ⅱ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeKeeperAssist Ⅱ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B28C1E728F6833E0055255E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B28C1E928F6833E0055255E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		4B28C20428F683400055255E /* TimeKeeperAssist ⅡUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeKeeperAssist ⅡUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B28C20828F683400055255E /* TimeKeeperAssist__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeKeeperAssist__UITests.swift; sourceTree = "<group>"; };
 		4B28C20A28F683400055255E /* TimeKeeperAssist__UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeKeeperAssist__UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B2ACB7729123E2A0008DE44 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		4B2ACB79291241250008DE44 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		4B2ACB7A291241250008DE44 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		4B9D5E85290FA5520084E400 /* SScellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SScellTableViewCell.swift; sourceTree = "<group>"; };
+		4BEBCBDE29010EAE00DBBDE2 /* ScheduleSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +115,15 @@
 				4B28C1E928F6833E0055255E /* SceneDelegate.swift */,
 				4B28C1EB28F6833E0055255E /* ViewController.swift */,
 				4B28C1ED28F6833E0055255E /* Main.storyboard */,
+				4B2ACB7729123E2A0008DE44 /* TestViewController.swift */,
+				4B2ACB79291241250008DE44 /* MainTableViewCell.swift */,
+				4B2ACB7A291241250008DE44 /* MainTableViewCell.xib */,
 				4B28C1F028F683400055255E /* Assets.xcassets */,
 				4B28C1F228F683400055255E /* LaunchScreen.storyboard */,
 				4B28C1F528F683400055255E /* Info.plist */,
+				4BEBCBDE29010EAE00DBBDE2 /* ScheduleSettingsViewController.swift */,
+				4B9D5E85290FA5520084E400 /* SScellTableViewCell.swift */,
+				4B1E90122935CD44008FD8BF /* Execution.swift */,
 			);
 			path = "TimeKeeperAssist Ⅱ";
 			sourceTree = "<group>";
@@ -233,6 +251,7 @@
 			files = (
 				4B28C1F428F683400055255E /* LaunchScreen.storyboard in Resources */,
 				4B28C1F128F683400055255E /* Assets.xcassets in Resources */,
+				4B2ACB7C291241250008DE44 /* MainTableViewCell.xib in Resources */,
 				4B28C1EF28F6833E0055255E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1E90132935CD44008FD8BF /* Execution.swift in Sources */,
+				4BEBCBDF29010EAE00DBBDE2 /* ScheduleSettingsViewController.swift in Sources */,
 				4B28C1EC28F6833E0055255E /* ViewController.swift in Sources */,
+				4B9D5E86290FA5520084E400 /* SScellTableViewCell.swift in Sources */,
+				4B2ACB7B291241250008DE44 /* MainTableViewCell.swift in Sources */,
 				4B28C1E828F6833E0055255E /* AppDelegate.swift in Sources */,
+				4B2ACB7829123E2A0008DE44 /* TestViewController.swift in Sources */,
 				4B28C1EA28F6833E0055255E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
