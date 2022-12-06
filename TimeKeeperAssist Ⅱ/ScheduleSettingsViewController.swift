@@ -41,26 +41,19 @@ class ScheduleSettingsViewController: UIViewController ,UITableViewDelegate, UIT
     
     var T : Int!
     
-    struct files{
-        var sn:String
-        var d:[Any]
-        init(sn: String, d: [Any]) {
-                self.sn = sn
-                self.d = d
-            }
-    }
-    
-    struct datas{
-        var name:String!
-        var time:Int!
-        init(name: String, time: Int) {
-                self.name = name
-                self.time = time
-            }
-    }
+//    struct files:Codable{
+//        var sn:String
+//        var d:[Any]
+//        init(sn: String, d: [Any]) {
+//                self.sn = sn
+//                self.d = d
+//            }
+//    }
 
-    var file = [files]()
-    var data = [datas]()
+
+    var file:[files]=[]
+    var data :[datas]=[]
+    
     
     var saveData:UserDefaults=UserDefaults.standard
     
@@ -68,6 +61,7 @@ class ScheduleSettingsViewController: UIViewController ,UITableViewDelegate, UIT
     override func viewDidLoad() {
         
 //        tableView.backgroundColor = UIColor.yellow;
+        
         
         
         
@@ -105,12 +99,29 @@ class ScheduleSettingsViewController: UIViewController ,UITableViewDelegate, UIT
         
         
     }
+    //func save(){
+//        file.append(files(sn: ScheduleName.text!, d: data))
+//        saveData.set(file, forKey: "key")
+//    }
     
-    @IBAction func save(){
+    
+    @IBAction func saves() {
+        let jsonEncoder = JSONEncoder()
         file.append(files(sn: ScheduleName.text!, d: data))
-        saveData.set(file, forKey: "key")
+        guard let dataEncode = try? jsonEncoder.encode(file) else {
+            return
+        }
+        UserDefaults.standard.set(dataEncode, forKey: "key")
     }
     
+//    func save<T: Encodable>(object: T, key: String) {
+//        let jsonEncoder = JSONEncoder()
+//        guard let dataEncode = try? jsonEncoder.encode(object) else {
+//            return
+//        }
+//        UserDefaults.standard.set(data, forKey: key)
+//    }
+
 
     /*
     // MARK: - Navigation
@@ -176,14 +187,14 @@ class ScheduleSettingsViewController: UIViewController ,UITableViewDelegate, UIT
 //        cell.backgroundColor = UIColor.yellow
 //    }
 
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toPlay" {
-            let nextView = segue.destination as! Execution
-            nextView.data = data
-            nextView.datas = datas
-        }
-    }
+//    MARK: saveを優先させるべき？
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "toPlay" {
+//            let nextView = segue.destination as! Execution
+//            nextView.data = data
+//            nextView.datas = datas
+//        }
+//    }
 }
 //self.table.reloadData()
 //print("OK")

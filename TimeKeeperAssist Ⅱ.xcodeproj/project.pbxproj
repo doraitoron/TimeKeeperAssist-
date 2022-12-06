@@ -20,7 +20,10 @@
 		4B2ACB7829123E2A0008DE44 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2ACB7729123E2A0008DE44 /* TestViewController.swift */; };
 		4B2ACB7B291241250008DE44 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2ACB79291241250008DE44 /* MainTableViewCell.swift */; };
 		4B2ACB7C291241250008DE44 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B2ACB7A291241250008DE44 /* MainTableViewCell.xib */; };
+		4B99EE0C2939D62800B0155C /* TKATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B99EE0B2939D62800B0155C /* TKATableViewController.swift */; };
 		4B9D5E86290FA5520084E400 /* SScellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9D5E85290FA5520084E400 /* SScellTableViewCell.swift */; };
+		4BB71E4F2937217C000EB249 /* TimeKeeperAssist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB71E4E2937217C000EB249 /* TimeKeeperAssist.swift */; };
+		4BB71E51293722A6000EB249 /* files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB71E50293722A6000EB249 /* files.swift */; };
 		4BEBCBDF29010EAE00DBBDE2 /* ScheduleSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEBCBDE29010EAE00DBBDE2 /* ScheduleSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +62,10 @@
 		4B2ACB7729123E2A0008DE44 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		4B2ACB79291241250008DE44 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		4B2ACB7A291241250008DE44 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		4B99EE0B2939D62800B0155C /* TKATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TKATableViewController.swift; sourceTree = "<group>"; };
 		4B9D5E85290FA5520084E400 /* SScellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SScellTableViewCell.swift; sourceTree = "<group>"; };
+		4BB71E4E2937217C000EB249 /* TimeKeeperAssist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeKeeperAssist.swift; sourceTree = "<group>"; };
+		4BB71E50293722A6000EB249 /* files.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = files.swift; sourceTree = "<group>"; };
 		4BEBCBDE29010EAE00DBBDE2 /* ScheduleSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +97,7 @@
 		4B28C1DB28F6833E0055255E = {
 			isa = PBXGroup;
 			children = (
+				4B99EE0B2939D62800B0155C /* TKATableViewController.swift */,
 				4B28C1E628F6833E0055255E /* TimeKeeperAssist Ⅱ */,
 				4B28C1FD28F683400055255E /* TimeKeeperAssist ⅡTests */,
 				4B28C20728F683400055255E /* TimeKeeperAssist ⅡUITests */,
@@ -124,6 +131,8 @@
 				4BEBCBDE29010EAE00DBBDE2 /* ScheduleSettingsViewController.swift */,
 				4B9D5E85290FA5520084E400 /* SScellTableViewCell.swift */,
 				4B1E90122935CD44008FD8BF /* Execution.swift */,
+				4BB71E4E2937217C000EB249 /* TimeKeeperAssist.swift */,
+				4BB71E50293722A6000EB249 /* files.swift */,
 			);
 			path = "TimeKeeperAssist Ⅱ";
 			sourceTree = "<group>";
@@ -277,12 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB71E4F2937217C000EB249 /* TimeKeeperAssist.swift in Sources */,
+				4BB71E51293722A6000EB249 /* files.swift in Sources */,
 				4B1E90132935CD44008FD8BF /* Execution.swift in Sources */,
 				4BEBCBDF29010EAE00DBBDE2 /* ScheduleSettingsViewController.swift in Sources */,
 				4B28C1EC28F6833E0055255E /* ViewController.swift in Sources */,
 				4B9D5E86290FA5520084E400 /* SScellTableViewCell.swift in Sources */,
 				4B2ACB7B291241250008DE44 /* MainTableViewCell.swift in Sources */,
 				4B28C1E828F6833E0055255E /* AppDelegate.swift in Sources */,
+				4B99EE0C2939D62800B0155C /* TKATableViewController.swift in Sources */,
 				4B2ACB7829123E2A0008DE44 /* TestViewController.swift in Sources */,
 				4B28C1EA28F6833E0055255E /* SceneDelegate.swift in Sources */,
 			);
